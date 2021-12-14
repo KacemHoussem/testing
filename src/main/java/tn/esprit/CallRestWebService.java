@@ -10,6 +10,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 // Hedi's branch
+// 2nd token
 
 public class CallRestWebService {
     public static final String endpoint = "http://ip-api.com/json";
