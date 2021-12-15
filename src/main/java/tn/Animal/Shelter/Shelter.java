@@ -20,4 +20,29 @@ public class Shelter {
 		this.id = id;
 		this.lstAnimal = lstAnimal;
 	}
+
+	//creation Getter and Setter by Fedi
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public List<Animal> getLstAnimal() {
+		return lstAnimal;
+	}
+
+	public void setLstAnimal(List<Animal> lstAnimal) {
+		this.lstAnimal = lstAnimal;
+	}
 }
