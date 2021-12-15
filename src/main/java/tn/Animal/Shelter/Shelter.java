@@ -79,8 +79,17 @@ public class Shelter implements InterfaceShelter{
 
 	@Override
 	public void update(Animal a) {
+		for (Animal B: lstAnimal) {
+			if (B.getId()==a.getId()) {
+				B.setAge(a.getAge());
+				B.setName(a.getName());
+				B.setType(a.getType());
 
-	}
+			}
+			}
+		}
+
+
 
 	@Override
 	public void getAll() {
