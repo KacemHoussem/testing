@@ -9,13 +9,7 @@ import org.json.JSONObject;
 
 import java.io.IOException;
 
-//<<<<<<< HEAD
-// Hedi's branch
-// 2nd token
-
-//=======
-//Branch houssem
-//>>>>>>> houssem
+  //branch iheb
 public class CallRestWebService {
     public static final String endpoint = "http://ip-api.com/json";
     //public static final String endpoint = "https://httpbin.org/get";
