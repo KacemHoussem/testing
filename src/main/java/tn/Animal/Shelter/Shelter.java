@@ -3,6 +3,7 @@ package tn.Animal.Shelter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 public class Shelter implements InterfaceShelter{
 
@@ -86,9 +87,10 @@ public class Shelter implements InterfaceShelter{
 
 	}
 
+	// function made by Houssem
 	@Override
 	public List<Animal> getByType(String s) {
-		return null;
+		return lstAnimal.stream().filter(a->a.getType().equals(s)).collect(Collectors.toList());
 	}
 
 	@Override
