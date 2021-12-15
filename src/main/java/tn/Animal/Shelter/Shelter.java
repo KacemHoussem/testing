@@ -2,6 +2,7 @@ package tn.Animal.Shelter;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class Shelter {
 
@@ -44,5 +45,24 @@ public class Shelter {
 
 	public void setLstAnimal(List<Animal> lstAnimal) {
 		this.lstAnimal = lstAnimal;
+	}
+
+
+	//Creation equals and toString by Nour
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+		Shelter shelter = (Shelter) o;
+		return id == shelter.id;
+	}
+
+	@Override
+	public String toString() {
+		return "Shelter{" +
+				"name='" + name + '\'' +
+				", id=" + id +
+				", lstAnimal=" + lstAnimal +
+				'}';
 	}
 }
