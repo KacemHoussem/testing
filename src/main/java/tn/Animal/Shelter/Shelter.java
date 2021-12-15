@@ -91,8 +91,11 @@ public class Shelter implements InterfaceShelter{
 		return null;
 	}
 
+	//Vaccinated method by Fedi
 	@Override
 	public void vaccinate(Animal a) {
-
+		for(Animal animal: lstAnimal)
+			if (!animal.isVaccinated())
+				animal.setVaccinated(true);
 	}
 }
