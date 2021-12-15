@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Shelter {
+public class Shelter implements InterfaceShelter{
 
 	//creation Class +attributs by iheb
 	private String name ;
@@ -64,5 +64,35 @@ public class Shelter {
 				", id=" + id +
 				", lstAnimal=" + lstAnimal +
 				'}';
+	}
+
+	@Override
+	public void rescue(Animal a) {
+
+	}
+
+	@Override
+	public void adopt(Animal a) {
+
+	}
+
+	@Override
+	public void update(Animal a) {
+
+	}
+
+	@Override
+	public void getAll() {
+
+	}
+
+	@Override
+	public List<Animal> getByType(String s) {
+		return null;
+	}
+
+	@Override
+	public void vaccinate(Animal a) {
+
 	}
 }
