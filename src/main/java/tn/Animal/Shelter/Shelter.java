@@ -68,7 +68,7 @@ public class Shelter implements InterfaceShelter{
 
 	@Override
 	public void rescue(Animal a) {
-
+	lstAnimal.add(a);
 	}
 
 	@Override
