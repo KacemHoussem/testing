@@ -73,7 +73,7 @@ public class Shelter implements InterfaceShelter{
 
 	@Override
 	public void adopt(Animal a) {
-
+		lstAnimal.remove(a);
 	}
 
 	@Override
