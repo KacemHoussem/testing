@@ -56,4 +56,6 @@ public class Animal {
         this.vaccinated = vaccinated;
     }
 
+    
+
 }
